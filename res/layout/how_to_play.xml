@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+ @className CS 6301-022 User Interface Design
+ * @author Ankit Tolia (abt140130)
+ * @email-id abt140130@utdallas.edu
+ * @version 1.0
+ * @started date 30 Nov 2014
+ * @Description : Barrel Race Game for an Android Device
+ * @Purpose : Class Assignment
+ * @Description : This xml file gives layout for displaying instructions on how to play games. 
+ -->
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/howtoheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_margin="5dp"
+        android:text="@string/how_to_play"
+        android:textColor="@color/black"
+        android:textSize="45sp" />
+    
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:text="@string/how_to_play_instructions"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/barrelpattern"
+        />
+    
+
+</LinearLayout>
+</ScrollView>

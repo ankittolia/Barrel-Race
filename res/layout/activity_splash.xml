@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ @className CS 6301-022 User Interface Design
+ * @author Ankit Tolia (abt140130)
+ * @email-id abt140130@utdallas.edu
+ * @version 1.0
+ * @started date 30 Nov 2014
+ * @Description : Barrel Race Game for an Android Device
+ * @Purpose : Class Assignment
+*  @Description : This xml is for layout of splash screen which just contains the image view tag to display splash screen image. 
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash" />
+    
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgLogo"
+        android:layout_alignTop="@+id/imgLogo"
+        android:layout_alignRight="@+id/imgLogo"
+        android:layout_alignBottom="@+id/imgLogo"
+        android:layout_marginTop="10dp"
+        android:gravity="top|center_horizontal"
+        android:textSize="45sp"
+        android:text="@string/app_name"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+@className CS 6301-022 User Interface Design
+@Name : Ankit Tolia
+@Net id : abt140130
+@version 1.1
+@Date : 11/25/2014
+@Purpose : Assignment 4(Barrel race game development) for class CS 6301 section-022
+
+@Description : This xml file provides string value for every string name against it.
+-->
+
+<resources>
+
+    <string name="hello">Hello World</string>
+    <string name="app_name">Barrel Racing</string>
+    <string name="barrel_touched_msg">Whoa !!! &#8230;&#8230;&#8230; Barrel was touched</string>
+    <string name="result_won">Game Completed</string>
+    <string name="scoreTxt">You cleared in:</string>
+    <string name="error_fetch_score">Error Retrieving Score</string>
+    <string name="start">Start</string>
+    <string name="finish">Start/Finish</string>
+    <string name="playgame">Play Game</string>
+    <string name="highscores">High Scores</string>
+    <string name="enter_name">Your name:</string>
+    <string name="high_scores_not_avail">High Scores not available</string>
+    <string name="how_to_play">How To Play</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="how_to_play_instructions">Barrel Racing is a rodeo event in which a horse and rider attempt to complete
+         a circle around present barrels in the fastest time.  In timed rodeo  events, the purpose is to make a 
+         run as fast as possible while the time is being clocked. The rodeo who takes the least time wins the race.</string>
+    <string name="scoresaved">Your Score is saved</string>
+    <string name="scoresavederr">Error saving score</string>
+    <string name="submit">Submit</string>
+    <string name="defaulttime">00:00:00</string>
+    <string name="ready">Ready to Go!!</string>
+    <string name="action_settings">Settings</string>
+    <string name="saved_settings">"Settings have been Saved...!"</string>
+    <string name="setting_saved">Save</string>
+    <string name="bgcolor">Background Color</string>
+    <string name="horse_color">Horse Color</string>
+    <string name="barrel_color">Barrel Color</string>
+    <string name="user_name">Unknown</string>
+    <string name="exit">Exit</string>
+
+    <string-array name="background_array">
+        <item>Brown</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="barrel_array">
+        <item>Yellow</item>
+        <item>SkyBlue</item>
+    </string-array>
+    <string-array name="horse_array">
+        <item>Red</item>
+        <item>Black</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+ @className CS 6301-022 User Interface Design
+ * @author Ankit Tolia (abt140130)
+ * @email-id abt140130@utdallas.edu
+ * @version 1.0
+ * @started date 30 Nov 2014
+ * @Description : Barrel Race Game for an Android Device
+ * @Purpose : Class Assignment
+ * @Description :  Main Layout for the game screen drawing its respective components
+ -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="65dp"
+        android:text="@string/ready"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/start"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/countdownTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:visibility="gone" />
+
+    
+     <TextView
+        android:id="@+id/startfinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="bottom|center_horizontal"
+		android:layout_marginBottom="60dp"
+		android:text="@string/finish"
+		android:visibility="gone"
+        />
+    
+    
+    <TextView
+        android:id="@+id/textTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnPause"
+        android:layout_gravity="right|bottom"
+        android:gravity="right|bottom"
+        android:padding="5dp"
+        android:text="@string/defaulttime"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:visibility="gone" />
+    
+   
+    <ImageButton
+        android:id="@+id/btnPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/pause"
+        android:layout_margin="3dp"
+        android:gravity="right|bottom"
+        android:visibility="gone" />
+    
+    
+
+</FrameLayout>
